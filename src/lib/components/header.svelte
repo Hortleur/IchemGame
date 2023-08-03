@@ -5,7 +5,7 @@
 <header class="navbar bg-base-300 sticky top-0 z-20">
 	<div class="navbar-start">
 		<div class="dropdown">
-			<label tabindex="0" class="btn btn-ghost lg:hidden">
+			<label tabindex="0"  class="btn btn-ghost lg:hidden">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					class="h-5 w-5"
@@ -21,14 +21,21 @@
 				>
 			</label>
 			<ul
-				tabindex="0"
 				class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 font-bold"
 			>
-				<li><a href="/">Section 1</a></li>
+				<li><a href="/">Acceuil</a></li>
 				<li>
-					<a href="#section2">Section 2</a>
+					<a href="#formation">
+						Formation
+					</a>
 				</li>
-				<li><a>Item 3</a></li>
+				<li>
+					<a href="#modules">Modules</a>
+				</li>
+				<li><a href="#tarifs">Tarifs</a></li>
+				<li>
+					<a href="#temoignages">Témoignages</a>
+				</li>
 			</ul>
 		</div>
 		<a class=" w-10 md:w-16" href="/">
@@ -37,15 +44,25 @@
 	</div>
 	<div class="navbar-center hidden lg:flex">
 		<ul class="menu menu-horizontal px-1 font-bold text-md">
-			<li><a href="/">Item 1</a></li>
-			<li tabindex="0">
-				<a href="#section2">Parent</a>
+			<li><a href="/">Acceuil</a></li>
+			<li>
+				<a href="#formation">
+					Formation
+				</a>
 			</li>
-			<li><a>Item 3</a></li>
+			<li>
+				<a href="#modules">Modules</a>
+			</li>
+			<li>
+				<a href="#tarifs">Tarifs</a>
+			</li>
+			<li>
+				<a href="#temoignages">Témoignages</a>
+			</li>
 		</ul>
 	</div>
 	<div class="navbar-end">
-		<a class="btn btn-accent text-white font-bold">Prendre rendez-vous</a>
+		<a class="btn btn-accent text-white font-bold">Rendez-vous</a>
 		<label class="swap swap-rotate mx-4">
 			<!-- this hidden checkbox controls the state -->
 			<input

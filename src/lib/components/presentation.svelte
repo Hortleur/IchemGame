@@ -4,16 +4,15 @@
 
 <section id="presentation" class=" mt-4 mb-10">
 	<div class=" lg:w-1/2 lg:mx-auto">
-		<p class=" w-11/12 mx-auto text-center mt-6">
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus ultricies sollicitudin.
-			Etiam venenatis, mi in semper iaculis, urna lacus egestas odio, eu ullamcorper libero eros
-			eget ligula. Proin id tristique dolor, elementum pellentesque enim. Nullam ac ante et ante
-			consequat eleifend vel in ligula. Quisque condimentum est at libero auctor, sollicitudin
-			accumsan leo suscipit. Proin a nunc orci. Nam nec odio ac magna pharetra sollicitudin
-			fermentum dictum tortor. Suspendisse dolor orci, scelerisque vel purus at, consectetur
-			porttitor dui. Morbi id tempus magna, et vulputate mi. Nunc ullamcorper ex lorem, non blandit
-			ipsum placerat sed.
-		</p>
+		<div>
+			<p class=" w-11/12 mx-auto text-center mt-3">
+				Comment ne pas se tromper lorsque l’on veut devenir formateur avec toutes ces offres sur le marché ou le très bon côtoie le très mauvais ?
+				En avez-vous assez des sessions de formation sans intérêt qui échouent à captiver votre public ? Rêvez-vous d'un environnement d'apprentissage où la motivation atteint des sommets et l'engagement explose ? Ne cherchez plus !
+			</p>
+			<p class=" w-11/12 mx-auto text-center mt-3">Fort de plus de 20 ans d’expériences dans la formation de formateurs ,nous nous sommes fixés comme but de former les meilleurs formateurs du monde francophone grâce à un contenu innovant et une pédagogie unique en francophonie base sur les sciences cognitives.</p>
+			<p class=" w-11/12 mx-auto text-center mt-3">Rehaussez votre formation : Libérez le pouvoir de la gamification pour révolutionner l'apprentissage et stimuler l'engagement.</p>
+			<p class=" w-11/12 mx-auto text-center mt-3">Nos formation étant reconnue recevrez ensuite une certification enregistrée sur France Compétences.</p>
+		</div>
 		<div class=" my-6">
 			<img src={discut} alt="Illustration" class=" mx-auto" />
 		</div>
@@ -36,7 +35,7 @@
 				name=""
 				id="text"
 				cols="30"
-				rows="10"
+				rows="5"
 				class=" textarea w-full ring-1 ring-base"
 				required
 			/>
