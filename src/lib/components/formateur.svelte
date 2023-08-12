@@ -1,26 +1,44 @@
 <script>
-    import ichem from '$lib/assets/formateurs/ichem.webp'
+    import ichem from '$lib/assets/formateurs/7.webp'
+    import monique from '$lib/assets/formateurs/5.webp'
+    import manu from '$lib/assets/formateurs/6.webp'
+
+    let items = [
+        {
+            id:0,
+            name: "Ichem",
+            video:'https://kepyflpgwlszqgburnth.supabase.co/storage/v1/object/public/temoignages/ichem.mp4?t=2023-08-12T18%3A36%3A14.848Z',
+            image: ichem
+        },
+        {
+            id: 1,
+            name: 'Monique',
+            video: 'https://kepyflpgwlszqgburnth.supabase.co/storage/v1/object/public/temoignages/presentation_monique.mov?t=2023-08-12T15%3A49%3A31.439Z',
+            image: monique
+        },
+        {
+            id:2,
+            name: 'Manuel',
+            video: 'https://kepyflpgwlszqgburnth.supabase.co/storage/v1/object/public/temoignages/presentation_manu.mp4?t=2023-08-12T15%3A49%3A19.443Z',
+            image: manu
+        }
+    ]
 </script>
 
-<section id="formateur">
+<section>
+    <div id="formateur" class=" h-20"></div>
     <h2 class=" text-2xl font-bold text-center">Formateurs</h2>
 
-    <div class="card lg:card-side bg-base-100 shadow-xl w-11/12 gap-2 mx-auto my-8">
-        <figure><img src="{ichem}" alt="Ichem Brahami"/></figure>
-        <div class="card-body lg:p-0">
-            <h2 class="card-title">Ichem</h2>
-            <div>
-                <p>Formateur-Neuroéducateur depuis plus de 15 ans 
-                    Révéler les talents,développer les Softs-Skills,cultiver le collectif.
-                </p>
-                <p>Formateur de Formateurs et Facilitateur des Apprentissages.</p>
-                <p>
-                    J apporte mon expertise et la motivation à ceux qui veulent crée des formations dynamique, engageante et fun grâce à la Neuroeducation et la gamification des apprentissages basé sur les dernières recherches en science cognitives . 
-                </p>
-                <p>
-                    Mon ambition est de faciliter la croissance, le développement des compétences et la performance des femmes et des hommes dans leur vie professionnelle. J œuvres pour assurer l’employabilité des salariés, des indépendants, des professions libérales et des entrepreneurs.
-                </p>
+    <div class=" lg:flex lg:flex-row lg:flex-nowrap">
+        {#each items as item }
+        <div class="card bg-base-100 shadow-xl w-11/12 md:w-7/12 lg:w-1/4 gap-2 mx-auto my-8">
+                <!-- svelte-ignore a11y-media-has-caption -->
+                <video src="{item.video}" poster="{item.image}" controls/>
+            <div class="card-body">
+                <h2 class="card-title">{item.name}</h2>
             </div>
         </div>
-      </div>
+    {/each }
+    </div>
+    
 </section>

@@ -16,10 +16,6 @@
                 {
                     id: 2,
                     contenu: "Préparer et construire les documents permettant l'animation de la formation selon votre métier"
-                },
-                {
-                    id: 3,
-                    contenu: "Préparer son intervention : choix du lieu, disposition de la salle , outils..."
                 }
             ],
             pedago:[
@@ -93,7 +89,7 @@
                 },
                 {
                     id: 3,
-                    contenu: "Connaitre les différentes postures etles pièges à éviter"
+                    contenu: "Connaitre les différentes postures et les pièges à éviter"
                 },
                 {
                     id: 4,
@@ -192,15 +188,16 @@
     ]
     </script>
     
-    <section class=" mt-8" id="modules">
-        <h2 class=" text-2xl font-bold text-center">Modules</h2>
-        <div class=" lg:flex lg:flex-row lg:flex-wrap lg:justify-around">
+    <section class=" mt-8">
+        <div id="modules" class=" h-20"></div>
+        <h2 class=" text-2xl font-bold text-center">Programme de Formation</h2>
+        <div class=" lg:flex lg:flex-col lg:flex-nowrap lg:justify-around">
             {#each modules as mod}
-            <div class=" border-2 border-base-300 w-11/12 lg:w-5/12 rounded-md mx-auto my-4 py-2 px-3 shadow-md">
-                <div class=" my-2 pl-2 font-semibold flex flex-row flex-nowrap justify-between">
+            <details class=" border-2 border-base-300 w-11/12 lg:w-5/12 rounded-md mx-auto my-4 py-2 px-3 shadow-md hover:cursor-pointer">
+                <summary class=" my-2 pl-2 font-semibold flex flex-row flex-nowrap justify-between">
                     <h3 class=" text-accent">{mod.title}</h3>
                     <p>{mod.duration}h</p>
-                </div>
+                </summary>
                 <div>
                     <ul class=" pl-4">
                         {#each mod.content as cont }
@@ -216,9 +213,7 @@
                         </ul>
                     {/each}
                 </div>
-            </div>  
+            </details>  
         {/each}
         </div>
-        
-        
 </section>

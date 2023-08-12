@@ -4,14 +4,14 @@
 	import CGV from "$lib/assets/conditions/CGV.pdf"
 </script>
 
-<footer class="footer items-center p-4 bg-base-300 text-neutral-content">
+<footer class="footer items-center p-4 bg-primary text-white">
 	<div class="items-center grid-flow-col">
 		<p>Ichemgame - 2023 - <cite>Vivez de votre savoir et créer la meilleure expérience de formation pour vous apprenants</cite></p>
 	</div>
 	<div class=" flex flex-row flex-nowrap gap-3 justify-center w-full font-semibold">
 		<a href="{CGU}" download="CGU.pdf">CGU</a>
 		-
-		<a href="{CGV}" download="CGV.pdf">CGV</a>
+		<a href="{CGV}" id="cgv" download="CGV.pdf">CGV</a>
 	</div>
 	<div class=" flex flex-row flex-nowrap w-full justify-center">
 	
@@ -23,6 +23,9 @@
 		</a>
 		<a href="https://www.instagram.com/ichem_game/">
 			<Icon icon="mdi:instagram" width="24"/>
+		</a>
+		<a href="#form">
+			<Icon icon="material-symbols:mail-outline" width="24" />
 		</a>
 	</div>
 </footer>

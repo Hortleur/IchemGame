@@ -1,5 +1,4 @@
 <script>
-    import asso from '$lib/assets/partners/asso_appart.webp';
     import bain from '$lib/assets/partners/bain.webp';
     import eg from '$lib/assets/partners/eg.webp';
     import heroes from '$lib/assets/partners/heroes-black-hd.webp';
@@ -13,39 +12,48 @@
     let images = [
         {
             img: bain,
-            alt: "bain"
+            alt: "Partenaire Bains",
+            link:'https://www.bainsmunicipauxdestrasbourg.fr/'
         },
         {
             img: eg,
-            alt: "che pas"
+            alt: "Partenaire Eg company",
+            link:'https://egcompanyacademy.com/'
         },
         {
             img: heroes,
-            alt: "che pas"
+            alt: "Partenaire Good Bye Confort zone",
+            link:'https://goodbyecomfort.zone/'
         },
         {
             img: hotel,
-            alt: "che pas"
+            alt: "Partenaire Hotel",
+            link:'https://hotelbeaucour.quotelo.io/'
         },
         {
             img: strasbourg,
-            alt: "che pas"
+            alt: "Partenaire Strasbourg",
+            link:'https://www.visitstrasbourg.fr/'
         },
         {
             img: simoh,
-            alt: "che pas"
+            alt: "Partenaire Simoh Chah",
+            link:'https://www.simochah.com'
         },
         {
             img: ina,
-            alt: "che pas"
+            alt: "Partenaire David lde françois",
+            link:'https://davidlefrancois.com'
         },
         {
             img: udemy,
-            alt: "che pas"
+            alt: "Partenaire udemy",
+            link:'https://www.udemy.com/course/vaincre-la-procrastination-et-apprendre-autrement/?kw=Vaincre+la+procrastination&src=sac'
         },
         {
             img: zebrologie,
-            alt: "che pas"
+            alt: "Partenaire Zebrologie",
+            link:'https://zebrologieetcie.com/mon-parcours'
         }
     ]
 
@@ -53,10 +61,10 @@
 
 <section class=" my-8">
     <h2 class=" text-2xl font-bold text-center my-2">Partenaires</h2>
-    <div class=" flex flex-row flex-wrap justify-around items-center mx-auto w-11/12">
+    <div class=" flex flex,-row flex-wrap justify-around items-center mx-auto w-11/12">
         {#each images as image}
             <div class=" w-20">
-                <img src="{image.img}" alt="{image.alt}">
+                <a href=" {image.link}" target="_blank"><img src="{image.img}" alt="{image.alt}" class=" lg:grayscale lg:hover:grayscale-0"></a>
             </div>
         {/each}     
     </div>

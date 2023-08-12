@@ -2,7 +2,7 @@
 	import logo from '$lib/assets/logo.png';
 </script>
 
-<header class="navbar bg-base-300 sticky top-0 z-20">
+<header class="navbar bg-base-300 text-white sticky top-0 z-20">
 	<div class="navbar-start">
 		<div class="dropdown">
 			<!-- svelte-ignore a11y-label-has-associated-control -->
@@ -23,12 +23,17 @@
 				>
 			</label>
 			<ul
-				class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 font-bold"
+				class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-300 rounded-box w-52 font-bold"
 			>
 				<li><a href="/">Acceuil</a></li>
 				<li>
 					<a href="#formateur">
 						Formateurs
+					</a>
+				</li>
+				<li>
+					<a href="#formation">
+						Formation
 					</a>
 				</li>
 				<li>
@@ -50,6 +55,11 @@
 			<li>
 				<a href="#formateur">
 					Formateurs
+				</a>
+			</li>
+			<li>
+				<a href="#formation">
+					Formation
 				</a>
 			</li>
 			<li>

@@ -45,7 +45,8 @@
     ]
 </script>
 
-<section id="tarifs">
+<section>
+    <div id="tarifs" class=" h-20"></div>
     <h2 class=" text-2xl font-bold text-center">Tarifs</h2>
     <div class=" lg:flex lg:flex-row lg:flex-nowrap lg:justify-around">
         {#each tarifs as tarif}
@@ -54,7 +55,7 @@
                 <p class=" my-2">{tarif.description}</p>
                 <p class=" text-lg font-bold text-accent text-center">{tarif.price}€</p>
                 {#if tarif.details}
-                    <span class=" italic font-extralight text-sm block text-center">{tarif.details}</span>
+                    <a href="#cgv"><span class=" italic font-extralight text-sm block text-center">{tarif.details}</span></a>
                 {/if}
             </div>
         {/each}
