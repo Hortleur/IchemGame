@@ -460,12 +460,12 @@
 		</p>
 		<div class=" flex flex-col flex-nowrap">
 			<label for="email" class=" font-semibold">Email</label>
-			<input type="email" name="" id="email" class="input h-10 ring-1 ring-base" bind:value={user_email} required />
+			<input type="email" name="" id="email" class="input h-10 ring-1 ring-white bg-base-300" bind:value={user_email} required />
 		</div>
 
 		<div class=" flex flex-col flex-nowrap">
 			<label for="status" class=" font-semibold">Quel est votre status actuel?</label>
-			<select name="" id="status" class=" select" bind:value={user_job} required >
+			<select name="" id="status" class=" select bg-base-300 border-white" bind:value={user_job} required >
 				<option value="Salarié">Salarié</option>
 				<option value="Salarié en CSP, PDV/PSE">Salarié en CSP, PDV/PSE</option>
 				<option value="demandeur d'emploi">Demandeur d'emploi</option>
@@ -477,7 +477,7 @@
 		
 		<div class=" flex flex-col flex-nowrap">
 			<label for="time" class=" font-semibold">Depuis combien de temps travaillez vous en France ?</label>
-			<select name="" id="time" class=" select" bind:value={user_duration} required >
+			<select name="" id="time" class=" select border-white bg-base-300" bind:value={user_duration} required >
 				<option value="Plus de 10 ans">Plus de 10 ans</option>
 				<option value="Entre 2 et 10 ans">Entre 2 et 10 ans</option>
 				<option value="Moins de 2 ans">Moins de 2 ans</option>
@@ -491,7 +491,7 @@
 				id="text"
 				cols="30"
 				rows="5"
-				class=" textarea w-full ring-1 ring-base"
+				class=" textarea w-full ring-1 ring-white bg-base-300"
 				bind:value={message}
 			/>
 		</div>

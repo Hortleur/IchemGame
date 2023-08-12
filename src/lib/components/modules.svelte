@@ -1,4 +1,5 @@
 <script>
+    import Icon from "@iconify/svelte";
     let modules = [
         {
             id: 0,
@@ -194,9 +195,12 @@
         <div class=" lg:flex lg:flex-col lg:flex-nowrap lg:justify-around">
             {#each modules as mod}
             <details class=" border-2 border-base-300 w-11/12 lg:w-5/12 rounded-md mx-auto my-4 py-2 px-3 shadow-md hover:cursor-pointer">
-                <summary class=" my-2 pl-2 font-semibold flex flex-row flex-nowrap justify-between">
-                    <h3 class=" text-accent">{mod.title}</h3>
-                    <p>{mod.duration}h</p>
+                <summary class=" my-2 pl-2 font-semibold flex flex-col flex-nowrap justify-between items-center">
+                    <div class=" flex flex-row flex-nowrap">
+                        <h3 class=" text-accent">{mod.title}</h3>
+                        <p>{mod.duration}h</p>
+                    </div>
+                    <Icon icon="tabler:chevron-down" width="24"/>
                 </summary>
                 <div>
                     <ul class=" pl-4">
@@ -214,6 +218,6 @@
                     {/each}
                 </div>
             </details>  
-        {/each}
+            {/each}
         </div>
 </section>
