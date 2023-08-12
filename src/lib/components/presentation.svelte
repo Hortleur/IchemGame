@@ -404,10 +404,11 @@
 			<img src={logo} alt="Illustration" class=" mx-auto lg:w-full lg: rounded-tr-lg rounded-br-lg" />
 		</div>
 	</div>
+	<div class=" h-20" id="form"></div>
 	<form
 		action=""
 		class=" flex flex-col flex-nowrap px-3 py-2 gap-3 w-11/12 lg:w-6/12 mx-auto bg-base-300 text-white rounded-md shadow-lg"
-		id="form"
+		
 	>		
 		<h2 class=" font-semibold text-xl text-white">Demande d'informations sans engagement</h2>
 		<div>

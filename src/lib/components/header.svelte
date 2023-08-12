@@ -32,12 +32,12 @@
 					</a>
 				</li>
 				<li>
+					<a href="#modules">Programme</a>
+				</li>
+				<li>
 					<a href="#formation">
 						Formation
 					</a>
-				</li>
-				<li>
-					<a href="#modules">Modules</a>
 				</li>
 				<li><a href="#tarifs">Tarifs</a></li>
 				<li>
@@ -58,12 +58,12 @@
 				</a>
 			</li>
 			<li>
+				<a href="#modules">Programme</a>
+			</li>
+			<li>
 				<a href="#formation">
 					Formation
 				</a>
-			</li>
-			<li>
-				<a href="#modules">Modules</a>
 			</li>
 			<li>
 				<a href="#tarifs">Tarifs</a>
