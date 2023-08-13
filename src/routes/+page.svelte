@@ -6,6 +6,7 @@
 	import Temoignages from '../lib/components/temoignages.svelte';
 	import Partenaires from '../lib/components/partenaires.svelte';
 	import Formation from '../lib/components/formation.svelte';
+	import Form from '../lib/components/form.svelte';
 
 	export let data
 </script>
@@ -17,6 +18,7 @@
 	<Modules />
 	<Formation />
 	<Tarifs />
+	<Form />
 	<Temoignages />
 	<Partenaires />
 </main>

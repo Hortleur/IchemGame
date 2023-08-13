@@ -59,7 +59,7 @@
 
 </script>
 
-<section class=" my-8">
+<section class=" mt-8 bg-white lg:bg-transparent py-8">
     <h2 class=" text-2xl font-bold text-center my-2">Partenaires</h2>
     <div class=" flex flex,-row flex-wrap justify-around items-center mx-auto w-11/12">
         {#each images as image}

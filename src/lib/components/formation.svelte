@@ -7,7 +7,7 @@
     <h2 class=" text-2xl font-bold text-center">Formation</h2>
     <div class=" flex flex-col flex-nowrap justify-start">
         <details class=" border-b-2 border-base-300 py-2 px-1 gap-2 lg:hover:shadow-lg hover:cursor-pointer lg:w-5/12 lg:mx-auto">   
-            <summary class="  font-bold text-lg">Préquis</summary>
+            <summary class="  font-bold text-lg">Prérequis</summary>
             <div>
                 <h3 class=" font-semibold">Prérequis d'entrée en formation: </h3>
                     <ul class=" ml-2">
@@ -50,7 +50,7 @@
             <summary class="  font-bold text-lg">Modalités d'évaluation des acquis</summary>
             <div class=" pl-3 flex flex-col flex-nowrap gap-2 ">
                 <ul>
-                    <li>A l’issue de la formation, une soutenance se fera devant un jury professionnel qui vous donnera lieu à une certification reconnue par France Compétences. (répertoire spécifique).</li>
+                    <li>A l’issue de la formation, une soutenance se fera devant un jury professionnel qui donnera lieu à une certification reconnue par France Compétences (répertoire spécifique).</li>
                     <li>Les deux modes d’évaluation sont:</li>
                     <li> - Soutenance orale</li>
                     <li> - Simulation</li>
@@ -61,7 +61,7 @@
             <summary class="  font-bold text-lg">Moyens Pédagogiques</summary>
             <div class=" pl-3 flex flex-col flex-nowrap gap-2 ">
                 <p>Connaissez-vous l’entraînement par la simulation évolutive ?</p>
-                <p>Elle est basée sur la représentation d’une réalité cohérente : par exemple vous endossez la fonction de formateur et notre formateur devient l’interlocuteur il vous confrontera en fonction de votre objectif.</p>
+                <p>Elle est basée sur la représentation d’une réalité cohérente : par exemple vous endossez la fonction de formateur et notre formateur devient l’interlocuteur. Il vous confrontera en fonction de votre objectif.</p>
                 <p>Nous vous poussons à sortir de votre zone de confort et prendre conscience de votre posture d’animateur.</p>
                 <p>Ensuite, notre formateur fait un débriefing appelé « feed back » en identifiants vos points forts, vos axes d’amélioration et en élaborant un plan d’action personnalisé.</p>
                 <p>Notre formateur vous fait prendre conscience de votre propre potentiel et vous fait découvrir votre capacité à l’exploiter.</p>
@@ -70,14 +70,14 @@
         <details class=" border-b-2 border-base-300 py-2 px-1 lg:hover:shadow-lg hover:cursor-pointer lg:w-5/12 lg:mx-auto">   
             <summary class="  font-bold text-lg">Modalités, accessibilité et référent handicap</summary>
             <div class=" pl-3 flex flex-col flex-nowrap gap-2 ">
-                <p>Accessibilité : si vous êtes en situation de handicap, merci de le préciser lorsque vous recevrez le devis. Le référent handicap du centre de formation prendra alors contact avec vous pour s’assurer de l’accessibilité adéquate du dispositif de formation pour le week-end en présentiel .</p>
+                <p>Accessibilité : si vous êtes en situation d'handicap, merci de le préciser lorsque vous recevrez le devis. Le référent handicap du centre de formation prendra alors contact avec vous pour s’assurer de l’accessibilité adéquate du dispositif de formation pour le week-end en présentiel .</p>
                 <p>Notre formation étant réalisée pour le reste en distanciel, les personnes à mobilité réduite peuvent y accéder de chez elles. Pour les autres types d’handicap merci de prendre <a href="#form" class=" font-semibold text-accent"> contact </a> avec nous.</p>
             </div>
         </details>
         <details class=" border-b-2 border-base-300 py-2 px-1 lg:hover:shadow-lg hover:cursor-pointer lg:w-5/12 lg:mx-auto">   
             <summary class="  font-bold text-lg">Certification</summary>
             <div class=" pl-3 flex flex-col flex-nowrap gap-2 ">
-                <p>La certification: Animer une formation en situation profesionnelle, reconnue au RS vous sera délivrée en fin de formation apres la reussite de votre soutenance face au jury</p>
+                <p>La certification : "Animer une formation en situation professionnelle", reconnue au RS vous sera délivrée en fin de formation après la réussite de votre soutenance face au jury</p>
                 <p>Certificateur: Magnitude</p>
                 <p>N° RS: 5846</p>
             </div>

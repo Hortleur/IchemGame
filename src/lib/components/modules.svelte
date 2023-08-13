@@ -32,12 +32,12 @@
         },
         {
             id: 1,
-            title: "Module 2: Savoir organiser et structuré une action de formation",
+            title: "Module 2 : Savoir organiser et structurer une action de formation",
             duration: 8,
             content: [
                 {
                     id: 0,
-                    contenu: "Préparer et construire les documents permettantl'animation de la formation"
+                    contenu: "Préparer et construire les documents permettant l'animation de la formation"
                 },
                 {
                     id: 1,
@@ -49,7 +49,7 @@
                 },
                 {
                     id: 3,
-                    contenu: "Savoir créer ses outils facilement et les optimiser pourl'apprentissage"
+                    contenu: "Savoir créer ses outils facilement et les optimiser pour l'apprentissage"
                 },
                 {
                     id: 4,
@@ -73,16 +73,16 @@
         },
         {
             id: 2,
-            title: "Module 3: Adopter une posture de formateur et savoir démarrer une session",
+            title: "Module 3 : Adopter une posture de formateur et savoir démarrer une session",
             duration: 8,
             content: [
                 {
                     id: 0,
-                    contenu: "Savoir se présenter et accueillir ses stagaires"
+                    contenu: "Savoir se présenter et accueillir ses stagiaires"
                 },
                 {
                     id: 1,
-                    contenu: "Développerles qualités humaines du formateur(soft skills)"
+                    contenu: "Développer les qualités humaines du formateur (soft skills)"
                 },
                 {
                     id: 2,
@@ -94,7 +94,7 @@
                 },
                 {
                     id: 4,
-                    contenu: "Décelerles différents profils d'apprenants"
+                    contenu: "Déceler les différents profils d'apprenants"
                 },
                 {
                     id: 5,
@@ -114,7 +114,7 @@
         },
         {
             id: 3,
-            title: "Module 4: Mener et animer son action de manière efficace",
+            title: "Module 4n: Mener et animer son action de manière efficace",
             duration: 6,
             content: [
                 {
@@ -127,7 +127,7 @@
                 },
                 {
                     id: 2,
-                    contenu: "Poser les bases d'une action et savoir motiver ses apprenants et gérer les baisses d'engagement"
+                    contenu: "Poser les bases d'une action, savoir motiver ses apprenants et gérer les baisses d'engagement"
                 },
                 {
                     id: 3,
@@ -151,7 +151,7 @@
         },
         {
             id: 3,
-            title: "Module 5: Savoir cloturer une action de formation",
+            title: "Module 5 : Savoir cloturer une action de formation",
             duration: 6,
             content: [
                 {
@@ -160,7 +160,7 @@
                 },
                 {
                     id: 1,
-                    contenu: "Savoir s'auto évaluer et demander des feedback constructifs"
+                    contenu: "Savoir s'auto-évaluer et demander des feedback constructifs"
                 },
                 {
                     id: 2,
@@ -168,7 +168,7 @@
                 },
                 {
                     id: 3,
-                    contenu: "Savoir mesurerle retour surinvestissement"
+                    contenu: "Savoir mesurer le retour sur investissement"
                 },
                 {
                     id: 4,

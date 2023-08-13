@@ -2,7 +2,11 @@
 export default {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
-    extend: {}
+    extend: {
+      fontFamily:{
+        'philo': 'Philosopher, sans-serif',
+      }
+    }
   },
   daisyui: {
     themes: [
@@ -12,7 +16,7 @@ export default {
                     
           "secondary": "#92D577",
                     
-          "accent": "#670000",
+          "accent": "#AF3F46",
                     
           "neutral": "#BD96B8",
                     
