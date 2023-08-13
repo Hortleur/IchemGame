@@ -64,7 +64,7 @@
     <div class=" flex flex,-row flex-wrap justify-around items-center mx-auto w-11/12">
         {#each images as image}
             <div class=" w-20">
-                <a href=" {image.link}" target="_blank"><img src="{image.img}" alt="{image.alt}" class=" lg:grayscale lg:hover:grayscale-0"></a>
+                <a href=" {image.link}" target="_blank"><img src="{image.img}" alt="{image.alt}" class=" lg:grayscale lg:hover:grayscale-0" loading="lazy"></a>
             </div>
         {/each}     
     </div>

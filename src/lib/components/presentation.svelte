@@ -1,5 +1,5 @@
 <script>
-	import logo from '$lib/assets/logo.png'
+	import logo from '$lib/assets/logo.webp'
 	
 </script>
 
@@ -31,7 +31,7 @@
 				enregistrée sur France Compétences sous le numéro RS5846.			</p>
 		</div>
 		<div class=" my-6 lg:w-1/2">
-			<img src={logo} alt="Illustration" class=" mx-auto lg:w-full lg:rounded-tr-lg lg:rounded-br-lg" />
+			<img src={logo} alt="Illustration" class=" mx-auto lg:w-full lg:rounded-tr-lg lg:rounded-br-lg" loading="lazy"/>
 		</div>
 	</div>
 </section>

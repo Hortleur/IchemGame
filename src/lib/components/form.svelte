@@ -376,6 +376,7 @@
 	}
 </script>
 
+<div id="form" class=" h-20"></div>
 <form
 		action=""
 		class=" flex flex-col flex-nowrap px-3 py-2 gap-3 w-11/12 lg:w-6/12 mx-auto bg-base-300 text-white rounded-md shadow-lg"

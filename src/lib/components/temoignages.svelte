@@ -53,7 +53,7 @@
                 <!-- svelte-ignore a11y-media-has-caption -->
                 <video src="{tem.media}" controls poster="{tem.image}"></video>
                 {:else}
-                <img src="{tem.image}" alt="{tem.name}">
+                <img src="{tem.image}" alt="{tem.name}" loading="lazy">
             {/if}    
             <div class="card-body">
               <a href="{tem.link}" class=" hover:cursor-pointer" target="_blank"><h2 class="card-title">{tem.name}</h2></a>
