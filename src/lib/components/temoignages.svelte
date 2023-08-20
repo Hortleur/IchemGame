@@ -6,7 +6,7 @@
     let temoignages = [
         {
             id: 0,
-            media: "https://kepyflpgwlszqgburnth.supabase.co/storage/v1/object/public/temoignages/david_temoignage?t=2023-08-12T18%3A58%3A50.570Z",
+            media: "https://kepyflpgwlszqgburnth.supabase.co/storage/v1/object/public/temoignages/temoignage_david_mp4.mp4?t=2023-08-20T17%3A28%3A17.038Z",
             image:`${david}`,
             name: "David LEFRANCOIS",
             job: "Fondateur de l’Institut des Neurosciences Appliquées",

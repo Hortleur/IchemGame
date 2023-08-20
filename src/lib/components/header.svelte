@@ -25,51 +25,51 @@
 			<ul
 				class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-300 rounded-box w-52 font-bold"
 			>
-				<li><a href="/">Acceuil</a></li>
+				<li><a href="/" target="_self">Accueil</a></li>
 				<li>
-					<a href="#formateur">
+					<a href="#formateur" target="_self">
 						Formateurs
 					</a>
 				</li>
 				<li>
-					<a href="#modules">Programme</a>
+					<a href="#modules" target="_self">Programme</a>
 				</li>
 				<li>
-					<a href="#formation">
+					<a href="#formation" target="_self">
 						Formation
 					</a>
 				</li>
-				<li><a href="#tarifs">Tarifs</a></li>
+				<li><a href="#tarifs" target="_self">Tarifs</a></li>
 				<li>
-					<a href="#temoignages">Témoignages</a>
+					<a href="#temoignages" target="_self">Témoignages</a>
 				</li>
 			</ul>
 		</div>
-		<a class=" w-10 md:w-16" href="/">
+		<a class=" w-10 md:w-16" href="/" target="_self">
 			<img src={logo} alt="Logo Ichem game" class=" object-contain mask mask-circle" />
 		</a>
 	</div>
 	<div class="navbar-center hidden lg:flex">
 		<ul class="menu menu-horizontal px-1 font-bold text-md">
-			<li><a href="/">Acceuil</a></li>
+			<li><a href="/" target="_self">Accueil</a></li>
 			<li>
-				<a href="#formateur">
+				<a href="#formateur" target="_self">
 					Formateurs
 				</a>
 			</li>
 			<li>
-				<a href="#modules">Programme</a>
+				<a href="#modules" target="_self">Programme</a>
 			</li>
 			<li>
-				<a href="#formation">
+				<a href="#formation" target="_self">
 					Formation
 				</a>
 			</li>
 			<li>
-				<a href="#tarifs">Tarifs</a>
+				<a href="#tarifs" target="_self">Tarifs</a>
 			</li>
 			<li>
-				<a href="#temoignages">Témoignages</a>
+				<a href="#temoignages" target="_self">Témoignages</a>
 			</li>
 		</ul>
 	</div>

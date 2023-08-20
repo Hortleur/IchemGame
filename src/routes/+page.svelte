@@ -13,12 +13,12 @@
 
 <main class="">
 	<h1 class=" text-center font-bold text-4xl mt-4 text-primary">ANIMER DES FORMATIONS ET PROMOUVOIR SON ACTIVITÉ</h1>
-	<Presentation user_id={data.emailKey} service_id={data.serviceId} template_id={data.templateId} />
+	<Presentation />
 	<Formateur />
 	<Modules />
 	<Formation />
 	<Tarifs />
-	<Form />
+	<Form user_id={data.emailKey} service_id={data.serviceId} template_id={data.templateId} />
 	<Temoignages />
 	<Partenaires />
 </main>
