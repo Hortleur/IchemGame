@@ -1,9 +1,18 @@
 <script>
 	import logo from '$lib/assets/logo.png';
+	import { onMount } from 'svelte';
+
+	let isIphone = (false)
+	onMount(()=>{
+		if(navigator.userAgent.includes('iPhone') || navigator.userAgent.includes('iPad') ){
+			isIphone = true
+		}
+	})
 </script>
 
 <header class="navbar bg-base-300 text-white sticky top-0 z-20">
 	<div class="navbar-start">
+		{#if !isIphone}
 		<div class="dropdown">
 			<!-- svelte-ignore a11y-label-has-associated-control -->
 			<!-- svelte-ignore a11y-no-noninteractive-tabindex -->
@@ -25,7 +34,7 @@
 			<ul
 				class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-300 rounded-box w-52 font-bold"
 			>
-				<li><a href="/" target="_self">Accueil</a></li>
+				<li><a  href="/" target="_self">Accueil</a></li>
 				<li>
 					<a href="#formateur" target="_self">
 						Formateurs
@@ -45,6 +54,7 @@
 				</li>
 			</ul>
 		</div>
+		{/if}
 		<a class=" w-10 md:w-16" href="/" target="_self">
 			<img src={logo} alt="Logo Ichem game" class=" object-contain mask mask-circle" />
 		</a>

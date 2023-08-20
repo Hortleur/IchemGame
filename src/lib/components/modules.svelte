@@ -194,7 +194,7 @@
         <h2 class=" text-2xl font-bold text-center">Programme de Formation</h2>
         <div class=" lg:flex lg:flex-col lg:flex-nowrap lg:justify-around">
             {#each modules as mod}
-            <details class=" border-2 border-base-300 w-11/12 lg:w-5/12 rounded-md mx-auto my-4 py-2 px-3 shadow-md hover:cursor-pointer">
+            <details class=" border-2 border-base-300 w-11/12 lg:w-5/12 rounded-md mx-auto my-4 py-2 px-3 shadow-md hover:cursor-pointer ">
                 <summary class=" my-2 pl-2 font-semibold flex flex-col flex-nowrap justify-between items-center">
                     <div class=" flex flex-row flex-nowrap">
                         <h3 class=" text-accent mr-3">{mod.title}</h3>
@@ -221,3 +221,13 @@
             {/each}
         </div>
 </section>
+
+<style>
+    details > summary {
+        list-style: none;
+    }
+
+    details summary::-webkit-details-marker {
+        display:none;
+    }
+</style>
