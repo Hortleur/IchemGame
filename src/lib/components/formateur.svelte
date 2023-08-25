@@ -1,7 +1,8 @@
 <script>
-    import ichem from '$lib/assets/formateurs/7.webp'
-    import monique from '$lib/assets/formateurs/5.webp'
-    import manu from '$lib/assets/formateurs/6.webp'
+    import ichem from '$lib/assets/formateurs/ichem.webp'
+    import monique from '$lib/assets/formateurs/monique.webp'
+    import manu from '$lib/assets/formateurs/manu.webp'
+    import salim from '$lib/assets/formateurs/salim.webp'
 
     let items = [
         {
@@ -21,6 +22,12 @@
             name: 'Manuel',
             video: 'https://kepyflpgwlszqgburnth.supabase.co/storage/v1/object/public/temoignages/presentation_manu.mp4?t=2023-08-12T15%3A49%3A19.443Z',
             image: manu
+        },
+        {
+            id:3,
+            name: 'Salim',
+            video: 'https://kepyflpgwlszqgburnth.supabase.co/storage/v1/object/public/temoignages/video_formateur.mp4?t=2023-08-21T00%3A10%3A10.534Z',
+            image: salim
         }
     ]
 </script>
@@ -29,9 +36,9 @@
     <div id="formateur" class=" h-20"></div>
     <h2 class=" text-2xl font-bold text-center">Formateurs</h2>
 
-    <div class=" lg:flex lg:flex-row lg:flex-nowrap">
+    <div class=" lg:grid lg:grid-cols-2">
         {#each items as item }
-        <div class="card bg-base-100 shadow-xl w-11/12 md:w-7/12 lg:w-1/4 gap-2 mx-auto my-8">
+        <div class="card bg-base-100 shadow-xl w-11/12 md:w-7/12 lg:w-2/3 mx-auto my-8">
                 <!-- svelte-ignore a11y-media-has-caption -->
                 <video src="{item.video}" poster="{item.image}" controls/>
             <div class="card-body">

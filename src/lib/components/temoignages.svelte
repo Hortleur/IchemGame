@@ -66,4 +66,7 @@
     <div class=" my-3">
         <a  href="https://www.google.com/search?client=ms-android-huawei-rev1&sa=X&cs=0&biw=360&bih=657&q=Coach-Formateur+IchemGame+Bilan+de+compétences&ludocid=10195814231954778951&lsig=AB86z5WEUUNiwNV2jPPEKb-bHbPO&kgs=f55f69409dba147b&shndl=-1&shem=lbse,lsp&source=sh/x/kp/local/m1/2#lrd=0x4796c96c77a980f3:0x8d7ecf0633896b47,1,,,," target="_blank"><button class=" btn btn-accent text-white font-semibold mx-auto w-11/12 md:w-7/12 lg:w-5/12 block"> Regarder les témoignages</button></a>
     </div>
+    <div class=" my-3">
+        <a  href="https://calendly.com/ichemgame/reunion-de-60-minutes" target="_blank"><button class=" btn bg-emerald-400 text-white font-semibold mx-auto w-11/12 md:w-7/12 lg:w-5/12 block">Prendre rendez-vous</button></a>
+    </div>
 </section>
