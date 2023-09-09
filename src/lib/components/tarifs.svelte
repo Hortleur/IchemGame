@@ -63,7 +63,7 @@
     <div class=" my-6 py-2">
         <h2 class=" text-2xl font-bold text-center">Financements</h2>
         <ul class=" px-2 lg:w-3/4 lg:mx-auto flex flex-col gap-3 lg:gap-0 mt-3 lg:flex-row lg:flex-wrap lg:items-center lg:justify-around font-semibold ">
-            <li class=" lg:rounded-2xl lg:w-1/2 lg:text-center lg:my-2 lg:hover:underline text-lg">CPF (en partenariat avec EG, centre de formation certifié qualiopi)</li>
+            <li class=" lg:rounded-2xl lg:w-1/2 lg:text-center lg:my-2 lg:hover:underline text-lg">CPF (en partenariat avec EG, centre de formation certifié qualiopi, inscription 15 jours avant l'entrée en formation)</li>
             <li class=" lg:rounded-2xl lg:w-1/2 lg:text-center lg:my-2 lg:hover:underline text-lg">Financement personnel (possibles facilités de paiement sur demande)</li>
             <li class=" lg:rounded-2xl lg:w-1/2 lg:text-center lg:my-2 lg:hover:underline text-lg">OPCO</li>
             <li class=" lg:rounded-2xl lg:w-1/2 lg:text-center lg:my-2 lg:hover:underline text-lg">Pôle Emploi</li>
