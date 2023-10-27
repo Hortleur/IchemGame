@@ -6,15 +6,6 @@
     let temoignages = [
         {
             id: 0,
-            media: "https://kepyflpgwlszqgburnth.supabase.co/storage/v1/object/public/temoignages/temoignage_david_mp4.mp4?t=2023-08-20T17%3A28%3A17.038Z",
-            image:`${david}`,
-            name: "David LEFRANCOIS",
-            job: "Fondateur de l’Institut des Neurosciences Appliquées",
-            temType: "texte",
-            link:'https://www.youtube.com/channel/UCsOuelHUWaWuqvRFKBnTIYw'
-        },
-        {
-            id: 1,
             media: "https://kepyflpgwlszqgburnth.supabase.co/storage/v1/object/public/temoignages/hanine%20(1).mp4?t=2023-08-04T16%3A56%3A06.714Z",
             image:`${hanine}`,
             temType: "video",
@@ -23,7 +14,7 @@
             link:"https://haninemhannd.com/"
         },
         {
-            id:2,
+            id:1,
             media: "https://kepyflpgwlszqgburnth.supabase.co/storage/v1/object/public/temoignages/monique%20(1).mp4?t=2023-08-04T16%3A59%3A44.724Z",
             image:`${monique}`,
             temType: "video",
@@ -32,7 +23,7 @@
             link:"https://zebrologieetcie.com/mon-parcours"
         },
         {
-            id:3,
+            id:2,
             media: "https://kepyflpgwlszqgburnth.supabase.co/storage/v1/object/public/temoignages/bakari?t=2023-08-08T12%3A49%3A49.773Z",
             image: `${bakari}`,
             temType: "video",

@@ -41,11 +41,6 @@
             link:'https://www.simochah.com'
         },
         {
-            img: ina,
-            alt: "Partenaire David lde françois",
-            link:'https://davidlefrancois.com'
-        },
-        {
             img: udemy,
             alt: "Partenaire udemy",
             link:'https://www.udemy.com/course/vaincre-la-procrastination-et-apprendre-autrement/?kw=Vaincre+la+procrastination&src=sac'
