@@ -1,56 +1,77 @@
 <script>
+    import conflit from "$lib/assets/plaquette/conflit.jpg"
+    import leader from "$lib/assets/plaquette/leader.jpg"
+    import teletravail from "$lib/assets/plaquette/teletravail.jpg"
+    import communication from "$lib/assets/plaquette/communication.jpg"
+    import animer from "$lib/assets/plaquette/animer.jpg"
+    import temps from "$lib/assets/plaquette/temps.jpg"
+    import bilan from "$lib/assets/plaquette/bilan.jpg"
+    import parole from "$lib/assets/plaquette/parole.jpg"
 
     const formations = [
         {
             id:0,
             title:'Bilan de compétences',
-            link:"/plaquette/bilan"
+            link:"/plaquette/bilan",
+            img: bilan
         },
         {
             id:1,
             title:'Maitriser les techniques essentielles de prise de parole en public Les techniques pour réussir ses interventions en public',
-            link:"/plaquette/technique"
+            link:"/plaquette/technique",
+            img: parole
         },
         {
             id:2,
             title:'Organiser son quotidien professionnel pour gagner en efficacité et sérénité, Mieux gérer son temps et ses priorités',
-            link:"/plaquette/temps"
+            link:"/plaquette/temps",
+            img: temps
         },
         {
             id:3,
             title:'Communication interpersonnelle, Communiquer efficacement en entreprise',
-            link:"/plaquette/communiquer"
+            link:"/plaquette/communiquer",
+            img: communication
         },
         {
             id:4,
             title:'Animer une réunion, Préparer et conduire des réunions productives et participatives',
-            link:"/plaquette/animer"
+            link:"/plaquette/animer",
+            img: animer
         },
         {
             id:5,
             title:'Mieux Gérer les émotions, le stress et les conflits, Techniques pour réguler ses émotions et réduire le risque de conflits',
-            link:"/plaquette/conflits"
+            link:"/plaquette/conflits",
+            img: conflit
         },
         {
             id:6,
             title:'Mettre son leadership au service d’équipes, d’objectifs et de projets, Renforcer son leadership en toute situation',
-            link:"/plaquette/leadership"
+            link:"/plaquette/leadership",
+            img: leader
         },
         {
             id:7,
             title:"Etre efficace en télétravail, S'organiser, planifier, communiquer et maintenir le lien",
-            link:"/plaquette/efficace"
+            link:"/plaquette/efficace",
+            img: teletravail
         },
     ]
 </script>
 
 <main>
-    <h1 class="text-2xl text-center my-8 font-bold">Plaquette de formations</h1>
-    <div class=" flex flex-row flex-wrap">
+    <h1 class="text-2xl xl:text-4xl text-center my-8 font-bold">Plaquette de formations</h1>
+    <div class=" flex flex-row flex-wrap gap-7 mb-10 md:justify-evenly">
         {#each formations as formation}
-            <div class=" w-11/12 mx-auto h-60 grid place-items-center my-5 bg-blue-400 rounded-xl">
-                <h2 class="text-black font-semibold text-lg text-center ">{formation.title}</h2>
-                <a href={formation.link} class="btn btn-accent w-10/12 ">Voir Plus</a>
+            <div class=" card card-compact w-11/12 md:w-2/5 xl:w-1/5 mx-auto bg-base-200 shadow-xl">
+                <figure class="h-fit"><img src="{formation.img}" alt="image {formation.title}"></figure>
+                <div class=" card-body">
+                    <h2 class="card-title">{formation.title}</h2>
+                    <div class="card-actions justify-center">
+                        <a href={formation.link} class="btn btn-accent hover:btn-success lg:hover:animate-pulse">Voir Plus !</a>
+                    </div>
+                </div>
             </div>
         {/each}
     </div>

@@ -1,5 +1,5 @@
 <script>
-    const title = "Maitriser les techniques essentielles de prise de parole en public, Les techniques pour réussir ses interventions en public"
+    const title = "Maitriser les techniques essentielles de prise de parole en public. Les techniques pour réussir ses interventions en public"
     const pre = "Aucun prérequis, ce module s’adresse à tous."
     const pub = "Pouvoir s’exprimer avec aisance devant un auditoire est particulièrement utile dans le management. Cette formation s'adresse donc particulièrement aux cadres et dirigeants qui souhaitent développer leur impact à l'oral, Cela étant dit, ce type de formation peut être intéressant pour toute personne qui est amenée à communiquer régulièrement ou occasionnellement à l'oral."
     const objectif = "Maitriser les techniques essentielles de prise de parole en public\n" +
@@ -31,7 +31,9 @@
 </script>
 
 <main>
-    <h1 class="text-center font-bold text-2xl my-4">{title}</h1>
+    <div class="banner bg-cover bg-center mt-0 h-40 md:h-52 lg:h-60 xl:h-72 2xl:h-[500px] flex flex-col justify-end">
+        <h1 class="text-center font-bold text-2xl xl:text-4xl bg-white bg-opacity-70 mb-4">{title}</h1>
+    </div>
     <div class="">
         <h2 class="text-lg font-semibold">Pré-Requis</h2>
         <p class=" text-xl">{pre}</p>
@@ -71,5 +73,9 @@
     }
     li{
         margin: 10px 0
+    }
+    .banner{
+        background-image: url("$lib/assets/plaquette/parole.jpg");
+        margin-top: 0;
     }
 </style>

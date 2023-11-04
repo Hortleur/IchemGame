@@ -1,5 +1,5 @@
 <script>
-    let title = "Communication interpersonnelle, Communiquer efficacement en entreprise";
+    let title = "Communication interpersonnelle. Communiquer efficacement en entreprise";
     let pre = "";
     let pub = "";
     let objectif = "Objectifs de la formation Communication interpersonnelle\n" +
@@ -39,7 +39,9 @@
 </script>
 
 <main>
-    <h1 class="text-center font-bold text-2xl my-4">{title}</h1>
+    <div class="banner bg-cover bg-center mt-0 h-40 md:h-52 lg:h-60 xl:h-72 2xl:h-[500px] flex flex-col justify-end">
+        <h1 class="text-center font-bold text-2xl xl:text-4xl bg-white bg-opacity-70 mb-4">{title}</h1>
+    </div>
     <div class="">
         <h2 class="text-lg font-semibold">Pré-Requis</h2>
         <p class=" text-xl">{pre}</p>
@@ -79,5 +81,9 @@
     }
     li {
         margin: 10px 0;
+    }
+    .banner{
+        background-image: url("$lib/assets/plaquette/communication.jpg");
+        margin-top: 0;
     }
 </style>
