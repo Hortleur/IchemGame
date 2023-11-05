@@ -8,6 +8,7 @@
     import bilan from "$lib/assets/plaquette/bilan.jpg"
     import parole from "$lib/assets/plaquette/parole.jpg"
     import formation from "$lib/assets/plaquette/formation.jpg"
+    import logo from "$lib/assets/logo.webp"
 
     const formations = [
         {
@@ -68,7 +69,10 @@
 </script>
 
 <main>
-    <h1 class="text-2xl xl:text-4xl text-center my-8 font-bold">Plaquette de formations</h1>
+    <header class="flex flex-row items-center justify-center md:gap-3 px-3 md:px-0">
+        <figure class="w-20 block"><img src="{logo}" alt="logo" class=" rounded-full"></figure>
+        <h1 class="text-2xl xl:text-4xl text-center my-8 font-bold">Plaquette de formations</h1>
+    </header>
     <div class=" flex flex-row flex-wrap gap-7 mb-10 md:justify-evenly">
         {#each formations as formation}
             <div class=" card card-compact w-11/12 md:w-2/5 xl:w-1/4 mx-auto bg-base-200 shadow-xl">

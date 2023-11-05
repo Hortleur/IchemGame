@@ -129,14 +129,12 @@
             <ul>
                 {#each programme as prog}
                     <li>
-                        <details>
-                            <summary class="flex flex-row"><h3 class="font-semibold">{prog.id}. {prog.item.name}</h3></summary>
+                        <h3 class="font-semibold">{prog.id}. {prog.item.name}</h3>
                             <ul>
                                 {#each prog.item.itemlist as iList}
                                     <li>{iList.item}</li>
                                 {/each}
                             </ul>
-                        </details>
 
                         <details>
                             <summary>Moyen Pédagogique</summary>
