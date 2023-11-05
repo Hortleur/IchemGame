@@ -1,7 +1,7 @@
 <script>
     let title = "Mieux Gérer les émotions, le stress et les conflits. Techniques pour réguler ses émotions et réduire le risque de conflits";
-    let pre = "";
-    let pub = "";
+    let pre = "Aucun prérequis";
+    let pub = "Cette formation s'adresse à tous.";
     let objectif = "Objectifs de la formation Mieux Gérer les émotions, le stress et les conflits\n" +
         "Améliorer la maîtrise de ses émotions en situation de stress\n" +
         "Utiliser des méthodes de prévention et de gestion du stress\n" +
@@ -126,7 +126,7 @@
 </script>
 
 <main>
-    <div class="banner bg-cover bg-center mt-0 h-40 md:h-52 lg:h-60 xl:h-72 2xl:h-[500px] flex flex-col justify-end">
+    <div class="banner bg-cover bg-center mt-0 h-52 md:h-52 lg:h-60 xl:h-72 2xl:h-[500px] flex flex-col justify-end">
         <h1 class="text-center font-bold text-2xl xl:text-4xl bg-white bg-opacity-70 mb-4">{title}</h1>
     </div>
     <div class="">
@@ -138,23 +138,27 @@
         <p>{pub}</p>
     </div>
     <div>
-        <h2 class="text-lg font-semibold">Objectifs</h2>
-        <p>{objectif}</p>
+        <details class="ml-5">
+            <summary class="text-lg font-semibold text-accent">Objectifs</summary>
+            <p>{objectif}</p>
+        </details>
     </div>
     <div>
-        <h2 class="text-lg font-semibold">Programme</h2>
-        <ul>
-            {#each programme as prog}
-                <li>
-                    <h3 class="font-semibold">{prog.id}. {prog.item.name}</h3>
-                    <ul>
-                        {#each prog.item.itemlist as iList}
-                            <li>{iList.item}</li>
-                        {/each}
-                    </ul>
-                </li>
-            {/each}
-        </ul>
+        <details class="ml-5">
+            <summary class="text-lg font-semibold text-accent">Programme</summary>
+            <ul>
+                {#each programme as prog}
+                    <li>
+                        <h3 class="font-semibold">{prog.id}. {prog.item.name}</h3>
+                        <ul>
+                            {#each prog.item.itemlist as iList}
+                                <li>{iList.item}</li>
+                            {/each}
+                        </ul>
+                    </li>
+                {/each}
+            </ul>
+        </details>
     </div>
 </main>
 

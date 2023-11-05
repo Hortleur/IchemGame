@@ -1,7 +1,7 @@
 <script>
     let title = "Communication interpersonnelle. Communiquer efficacement en entreprise";
-    let pre = "";
-    let pub = "";
+    let pre = "Aucun prérequis";
+    let pub = "Cette formation s'adresse à tous.";
     let objectif = "Objectifs de la formation Communication interpersonnelle\n" +
         "Comprendre les mécanismes en jeu derrière la communication interpersonnelle\n" +
         "Apprendre et améliorer ses capacités d’intelligence émotionnelle\n" +
@@ -51,16 +51,20 @@
         <p>{pub}</p>
     </div>
     <div>
-        <h2 class="text-lg font-semibold">Objectifs</h2>
-        <p>{objectif}</p>
+        <details class="ml-5">
+            <summary class="text-lg font-semibold text-accent">Objectifs</summary>
+            <p>{objectif}</p>
+        </details>
     </div>
     <div>
-        <h2 class="text-lg font-semibold">Programme</h2>
-        <ul>
-            {#each programme as prog}
-                <li>{prog.id}. {prog.item}</li>
-            {/each}
-        </ul>
+        <details class="ml-5">
+            <summary class="text-lg font-semibold text-accent">Programme</summary>
+            <ul>
+                {#each programme as prog}
+                    <li>{prog.id}. {prog.item}</li>
+                {/each}
+            </ul>
+        </details>
     </div>
 </main>
 

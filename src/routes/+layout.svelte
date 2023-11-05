@@ -8,7 +8,6 @@
 
 
     let currentRoute = $page.url.pathname
-	export const ssr = false;
 </script>
 
 {#if !currentRoute.includes("/plaquette")}

@@ -1,7 +1,7 @@
 <script>
     let title = "Animer une réunion. Préparer et conduire des réunions productives et participatives";
-    let pre = "";
-    let pub = "";
+    let pre = "Aucun prérequis.";
+    let pub = "Cette formation s'adresse à tous.";
     let objectif = "Objectifs de la formation Animer une réunion\n" +
         "Cerner les différents objectifs d’une réunion\n" +
         "Préparer et structurer efficacement une réunion\n" +
@@ -102,30 +102,34 @@
     </div>
     <div class="">
         <h2 class="text-lg font-semibold">Pré-Requis</h2>
-        <p class=" text-xl">{pre}</p>
+        <p class="">{pre}</p>
     </div>
     <div>
         <h2 class="text-lg font-semibold">Public</h2>
         <p>{pub}</p>
     </div>
     <div>
-        <h2 class="text-lg font-semibold">Objectifs</h2>
-        <p>{objectif}</p>
+        <details class="ml-5">
+            <summary class="text-lg font-semibold text-accent">Objectifs</summary>
+            <p>{objectif}</p>
+        </details>
     </div>
     <div>
-        <h2 class="text-lg font-semibold">Programme</h2>
-        <ul>
-            {#each programme as prog}
-                <li>
-                    <h3 class="font-semibold">{prog.id}. {prog.item.name}</h3>
-                    <ul>
-                        {#each prog.item.itemlist as iList}
-                            <li>{iList.item}</li>
-                        {/each}
-                    </ul>
-                </li>
-            {/each}
-        </ul>
+        <details class="ml-5">
+            <summary class="text-lg font-semibold text-accent">Programme</summary>
+            <ul>
+                {#each programme as prog}
+                    <li>
+                        <h3 class="font-semibold">{prog.id}. {prog.item.name}</h3>
+                        <ul>
+                            {#each prog.item.itemlist as iList}
+                                <li>{iList.item}</li>
+                            {/each}
+                        </ul>
+                    </li>
+                {/each}
+            </ul>
+        </details>
     </div>
 </main>
 

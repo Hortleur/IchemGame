@@ -1,6 +1,6 @@
 <script>
     const title = "Maitriser les techniques essentielles de prise de parole en public. Les techniques pour réussir ses interventions en public"
-    const pre = "Aucun prérequis, ce module s’adresse à tous."
+    const pre = "Aucun prérequis"
     const pub = "Pouvoir s’exprimer avec aisance devant un auditoire est particulièrement utile dans le management. Cette formation s'adresse donc particulièrement aux cadres et dirigeants qui souhaitent développer leur impact à l'oral, Cela étant dit, ce type de formation peut être intéressant pour toute personne qui est amenée à communiquer régulièrement ou occasionnellement à l'oral."
     const objectif = "Maitriser les techniques essentielles de prise de parole en public\n" +
         "Maîtriser les techniques d'expression orale pour réussir tout type de prise de parole\n" +
@@ -43,16 +43,20 @@
         <p>{pub}</p>
     </div>
     <div>
-        <h2 class="text-lg font-semibold">Objectifs</h2>
-        <p>{objectif}</p>
+        <details class="ml-5">
+            <summary class="text-lg font-semibold text-accent">Objectifs</summary>
+            <p>{objectif}</p>
+        </details>
     </div>
     <div>
-        <h2 class="text-lg font-semibold">Programme</h2>
-        <ul>
-            {#each programme as prog}
-                <li>{prog.id}. {prog.item}</li>
-            {/each}
-        </ul>
+        <details class="ml-5">
+            <summary class="text-lg font-semibold text-accent">Programme</summary>
+            <ul>
+                {#each programme as prog}
+                    <li>{prog.id}. {prog.item}</li>
+                {/each}
+            </ul>
+        </details>
     </div>
 </main>
 

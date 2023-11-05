@@ -7,6 +7,7 @@
     import temps from "$lib/assets/plaquette/temps.jpg"
     import bilan from "$lib/assets/plaquette/bilan.jpg"
     import parole from "$lib/assets/plaquette/parole.jpg"
+    import formation from "$lib/assets/plaquette/formation.jpg"
 
     const formations = [
         {
@@ -57,6 +58,12 @@
             link:"/plaquette/efficace",
             img: teletravail
         },
+        {
+            id:8,
+            title: "Animer une formation en situation professionnelle",
+            link: "/plaquette/formation",
+            img: formation
+        }
     ]
 </script>
 
@@ -64,8 +71,8 @@
     <h1 class="text-2xl xl:text-4xl text-center my-8 font-bold">Plaquette de formations</h1>
     <div class=" flex flex-row flex-wrap gap-7 mb-10 md:justify-evenly">
         {#each formations as formation}
-            <div class=" card card-compact w-11/12 md:w-2/5 xl:w-1/5 mx-auto bg-base-200 shadow-xl">
-                <figure class="h-fit"><img src="{formation.img}" alt="image {formation.title}"></figure>
+            <div class=" card card-compact w-11/12 md:w-2/5 xl:w-1/4 mx-auto bg-base-200 shadow-xl">
+                <figure class="h-fit"><img src="{formation.img}" alt="image {formation.title}" loading="lazy"></figure>
                 <div class=" card-body">
                     <h2 class="card-title">{formation.title}</h2>
                     <div class="card-actions justify-center">
