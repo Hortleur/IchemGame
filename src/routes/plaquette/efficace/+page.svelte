@@ -44,7 +44,7 @@
         <h1 class="text-center font-bold text-2xl xl:text-4xl bg-white bg-opacity-70 mb-4">{title}</h1>
     </div>
     <div class="">
-        <h2 class="text-lg font-semibold">Pré-Requis</h2>
+        <h2 class="text-lg font-semibold">Prérequis</h2>
         <p class=" text-xl">{pre}</p>
     </div>
     <div>

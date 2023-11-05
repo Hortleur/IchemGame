@@ -5,14 +5,10 @@
     <div class="banner bg-cover bg-center mt-0 h-40 md:h-52 lg:h-60 xl:h-72 2xl:h-[500px] flex flex-col justify-end">
         <h1 class="text-center font-bold text-2xl xl:text-4xl bg-white bg-opacity-70 mb-4">Bilan de compétences</h1>
     </div>
-    <div class="lg:flex lg:flex-row lg:justify-around">
+    <div class="lg:flex lg:flex-row">
         <div>
-            <h2 class="text-lg font-semibold">Pré-Requis</h2>
+            <h2 class="text-lg font-semibold">Prérequis</h2>
             <p class="font-bold text-xl">Bac</p>
-        </div>
-        <div>
-            <h2 class="text-lg font-semibold">Taux de Réussite</h2>
-            <p class="font-bold text-xl">97%</p>
         </div>
     </div>
     <div>

@@ -86,4 +86,5 @@
             </div>
         {/each}
     </div>
+    <a href="https://kepyflpgwlszqgburnth.supabase.co/storage/v1/object/sign/plaquette/Plaquette%20de%20Formation.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwbGFxdWV0dGUvUGxhcXVldHRlIGRlIEZvcm1hdGlvbi5wZGYiLCJpYXQiOjE2OTkyMjY2MzQsImV4cCI6MjAxNDU4NjYzNH0.I993CM4bl5OQymOcp9wUU7Ta6_8HbNxFzx3TmxAVW0E" class="btn btn-success w-11/12 md:w-1/2 xl:w-1/4 2xl:w-1/5 mx-auto mb-5 text-sm font-bold flex flex-col justify-center" target="_blank" download>Téléchargez la plaquette en pdf</a>
 </main>
