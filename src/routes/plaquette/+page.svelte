@@ -86,5 +86,19 @@
             </div>
         {/each}
     </div>
-    <a href="https://kepyflpgwlszqgburnth.supabase.co/storage/v1/object/sign/plaquette/Plaquette%20de%20Formation.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwbGFxdWV0dGUvUGxhcXVldHRlIGRlIEZvcm1hdGlvbi5wZGYiLCJpYXQiOjE2OTkyMjY2MzQsImV4cCI6MjAxNDU4NjYzNH0.I993CM4bl5OQymOcp9wUU7Ta6_8HbNxFzx3TmxAVW0E" class="btn btn-success w-11/12 md:w-1/2 xl:w-1/4 2xl:w-1/5 mx-auto mb-5 text-sm font-bold flex flex-col justify-center" target="_blank" download>Téléchargez la plaquette en pdf</a>
+    <footer class="footer flex flex-col md:flex-row md:flex-wrap md:justify-evenly p-10 bg-base-200 text-base-content rounded">
+        <div class="flex flex-col">
+            <p class="text-lg font-semibold">Financement possible:</p>
+            <ul>
+                <li>Financement personnel</li>
+                <li>OPCO</li>
+                <li>Pôle Emploi</li>
+                <li>Aides de la Région</li>
+            </ul>
+        </div>
+        <div class="flex flex-col">
+            <p class="text-lg font-semibold">Pour plus d'information(prix, plaquette pdf...):</p>
+            <a href="mailto:contact@ichemgame.fr" class="underline ">contact@ichemgame.fr</a>
+        </div>
+    </footer>
 </main>
