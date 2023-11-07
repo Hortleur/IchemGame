@@ -80,4 +80,7 @@
             {/each}
         </div>
     </div>
+    <div class="">
+        <a href="https://kepyflpgwlszqgburnth.supabase.co/storage/v1/object/public/plaquette/1-1%20-%20Plaquette%20de%20ventes%202.pdf" download target="_blank" class="btn btn-accent flex w-11/12 md:w-3/5 lg:w-2/5 xl:w-1/3  mx-auto">Téléchargez la plaquette</a>
+    </div>
 </section>
