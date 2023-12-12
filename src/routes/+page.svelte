@@ -1,24 +1,28 @@
 <script>
-	import Presentation from '$lib/components/presentation.svelte';	
-	import Modules from '../lib/components/modules.svelte';
-	import Tarifs from '../lib/components/tarifs.svelte';
-	import Formateur from '../lib/components/formateur.svelte';
-	import Temoignages from '../lib/components/temoignages.svelte';
-	import Partenaires from '../lib/components/partenaires.svelte';
-	import Formation from '../lib/components/formation.svelte';
-	import Form from '../lib/components/form.svelte';
-
-	export let data
+    import Animer from '$lib/assets/plaquette/animer.jpg'
+    import Bilan from '$lib/assets/plaquette/bilan.jpg'
 </script>
 
-<main class="">
-	<h1 class=" text-center font-bold text-4xl mt-4 text-primary">ANIMER DES FORMATIONS ET PROMOUVOIR SON ACTIVITÉ</h1>
-	<Presentation />
-	<Formateur />
-	<Modules />
-	<Formation />
-	<Tarifs />
-	<Form user_id={data.emailKey} service_id={data.serviceId} template_id={data.templateId} />
-	<Temoignages />
-	<Partenaires />
-</main>
+<div class="">
+    <h1 class="text-center text-3xl lg:text-5xl font-bold">IchemGame</h1>
+    <div class="flex flex-col flex-nowrap lg:flex-row gap-10 my-10">
+        <div class="card card-bordered border-2 border-base-200 shadow-xl w-11/12 md:w-7/12 xl:w-1/3 mx-auto">
+            <figure>
+                <img src="{Animer}" alt="illustation animation de formation">
+            </figure>
+            <h2 class="card-title my-2 ml-2">Animer des Formation</h2>
+            <div class="card-actions">
+                <a href="/animer-des-formations" class="btn btn-accent mx-auto">Voir Plus</a>
+            </div>
+        </div>
+        <div class="card card-bordered border-2 border-base-200 shadow-xl w-11/12 md:w-7/12 xl:w-1/3 mx-auto">
+            <figure>
+                <img src="{Bilan}" alt="illustation bilan de compétences">
+            </figure>
+            <h2 class="card-title my-2 ml-2">Bilan de Compétences</h2>
+            <div class="card-actions">
+                <a href="/bilan-de-competences" class="btn btn-accent mx-auto">Voir Plus</a>
+            </div>
+        </div>
+    </div>
+</div>

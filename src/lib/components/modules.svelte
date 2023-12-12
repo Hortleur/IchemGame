@@ -4,19 +4,20 @@
         {
             id: 0,
             title: "Module 1: Se préparer à former",
-            duration: 8,
+            duration: 6,
+            objectif: 'Se préparer à former',
             content: [
                 {
                     id: 0,
-                    contenu: "Connaitre les bases de l'ingénierie pédagogique"
+                    contenu: "Chapitre 1 : Connaître les bases de l'ingénierie pédagogique"
                 },
                 {
                     id: 1,
-                    contenu: "Connaitre les bases des neurosciences et de la psychologie de l'apprentissage"
+                    contenu: "Chapitre 2 : Connaître les bases des neurosciences et de la psychologie de l'apprentissage"
                 },
                 {
                     id: 2,
-                    contenu: "Préparer et construire les documents permettant l'animation de la formation selon votre métier"
+                    contenu: "Chapitre 3 : Préparer et construire les documents permettant l'animation de la formation selon votre métier"
                 }
             ],
             pedago:[
@@ -32,37 +33,22 @@
         },
         {
             id: 1,
-            title: "Module 2 : Savoir organiser et structurer une action de formation",
+            title: "Module 2 : Préparer son action de formation",
             duration: 8,
+            objectif: "Créer une formation sur mesure",
             content: [
                 {
                     id: 0,
-                    contenu: "Préparer et construire les documents permettant l'animation de la formation"
+                    contenu: "Chapitre 1 : Préparer son action de formation"
                 },
                 {
                     id: 1,
-                    contenu: "Savoir étudier la demande et construire un séquençage adapté"
+                    contenu: "Chapitre 2 : L’analyse du besoin en formation"
                 },
                 {
                     id: 2,
-                    contenu: "Savoir définir des objectifs (taxonomie)"
+                    contenu: "Chapitre 3 : La création du contenu de la formation"
                 },
-                {
-                    id: 3,
-                    contenu: "Savoir créer ses outils facilement et les optimiser pour l'apprentissage"
-                },
-                {
-                    id: 4,
-                    contenu: "Connaitre les piliers de la motivation, de l'apprentissage et de l'engagement pour un stagiaire"
-                },
-                {
-                    id: 5,
-                    contenu: "Préparer son intervention : choix du lieu, disposition de la salle , outils..."
-                },
-                {
-                    id: 6,
-                    contenu: "La formation en présentiel, en e-learning, à distance : quelles sont les spécificités et comment s'adapter ?"
-                }
             ],
             pedago:[
                 {
@@ -73,32 +59,21 @@
         },
         {
             id: 2,
-            title: "Module 3 : Adopter une posture de formateur et savoir démarrer une session",
+            title: "Module 3 : La création du contenu de la formation",
             duration: 8,
+            objectif: "Démarrer l’action de formation",
             content: [
                 {
                     id: 0,
-                    contenu: "Savoir se présenter et accueillir ses stagiaires"
+                    contenu: "Chapitre 1 : L’accueil des participants et l’introduction de la formation"
                 },
                 {
                     id: 1,
-                    contenu: "Développer les qualités humaines du formateur (soft skills)"
+                    contenu: "Chapitre 2 : Préparer son intervention : choix du lieu, disposition de la salle , outils..."
                 },
                 {
                     id: 2,
-                    contenu: "Savoir créer une dynamique favorable , savoir animer un groupe"
-                },
-                {
-                    id: 3,
-                    contenu: "Connaitre les différentes postures et les pièges à éviter"
-                },
-                {
-                    id: 4,
-                    contenu: "Déceler les différents profils d'apprenants"
-                },
-                {
-                    id: 5,
-                    contenu: "Connaitre les techniques permettant de créer des conditions favorables à l’interaction et à l’apprentissage"
+                    contenu: "Chapitre 3 : Les 5 étapes pour concevoir une séquence pédagogique"
                 }
             ],
             pedago:[
@@ -114,32 +89,21 @@
         },
         {
             id: 3,
-            title: "Module 4n: Mener et animer son action de manière efficace",
+            title: "Module 4: Conduire l’action de formation",
             duration: 6,
+            objectif: "Savoir appliquer différentes méthodes d'animation",
             content: [
                 {
                     id: 0,
-                    contenu: "Analyserles attentes des stagiaires"
+                    contenu: "Chapitre 1 : L’animation d’une formation"
                 },
                 {
                     id: 1,
-                    contenu: "Connaitre les techniques de communication : CNV , communication non verbale/verbale, art oratoire"
+                    contenu: "Chapitre 2 : Les dynamiques de groupe"
                 },
                 {
                     id: 2,
-                    contenu: "Poser les bases d'une action, savoir motiver ses apprenants et gérer les baisses d'engagement"
-                },
-                {
-                    id: 3,
-                    contenu: "Savoir gérer son timing"
-                },
-                {
-                    id: 4,
-                    contenu: "Connaitre les techniques de la gestion de conflits"
-                },
-                {
-                    id: 5,
-                    contenu: "Savoir traiter les objections et les situations particulières avec les apprenants (démotivation , absences répétées....)"
+                    contenu: "Chapitre 3 : Comprenez l'impact des différents types d'animations"
                 }
             ],
             pedago:[
@@ -150,34 +114,49 @@
             ]
         },
         {
-            id: 3,
-            title: "Module 5 : Savoir cloturer une action de formation",
-            duration: 6,
+            id: 4,
+            title: "Module 5 : Gérer les situations sensibles",
+            duration: 8,
+            objectif: "Savoir gérer une situation sensible",
             content: [
                 {
                     id: 0,
-                    contenu: "Connaitre les outils pour évaluer une action de formation de manière cohérente"
+                    contenu: "Chapitre 1 : La gestion de situations sensibles"
                 },
                 {
                     id: 1,
-                    contenu: "Savoir s'auto-évaluer et demander des feedback constructifs"
+                    contenu: "Chapitre 2 : Les méthodes de gestions de conflits"
                 },
                 {
                     id: 2,
-                    contenu: "Savoir créer des outils et des supports d'évaluation pour son programme"
+                    contenu: "Chapitre 3 : Différents types de difficultés d apprentissages"
                 },
+            ],
+            pedago:[
                 {
-                    id: 3,
-                    contenu: "Savoir mesurer le retour sur investissement"
-                },
-                {
-                    id: 4,
-                    contenu: "Appréhender et prendre en compte la certification qualité"
-                },
-                {
-                    id: 5,
-                    contenu: "Et après la formation ?"
+                    id: 0,
+                    contenu: "Mise en situation et qcm"
                 }
+            ]
+        },
+        {
+            id: 5,
+            title: "Module 6 : Clôturer l’action de formation",
+            duration: 6,
+            objectif: "Mesurer l' atteintes des objectifs",
+            content: [
+                {
+                    id: 0,
+                    contenu: "Chapitre 1 : La réalisation des différents types d’évaluations"
+                },
+                {
+                    id: 1,
+                    contenu: "Chapitre 2 : La réalisation d’un questionnaire mesurant le retour sur investissement"
+                },
+                {
+                    id: 2,
+                    contenu: "Chapitre 3 : La mise en place d’une démarche d’amélioration continue"
+                },
             ],
             pedago:[
                 {
@@ -203,9 +182,12 @@
                     <Icon icon="tabler:chevron-down" width="24"/>
                 </summary>
                 <div>
+                    <h3 class="font-bold">Objectif: {mod.objectif}</h3>
+                </div>
+                <div>
                     <ul class=" pl-4">
                         {#each mod.content as cont }
-                        <li class=" list-disc list-item my-2">{cont.contenu}</li>  
+                        <li class=" list-item my-2">{cont.contenu}</li>
                         {/each}
                     </ul>
                 </div>

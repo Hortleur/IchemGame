@@ -4,15 +4,8 @@
         {
             id: 0,
             price: 2500,
-            description: "Full distanciel 42h de formation plus 1h30 de préparation individuelle pour la certification devant le jury.",
-            title: "Formule 1"
-        },
-        {
-            id: 1,
-            price: 3000,
-            description: "Formule 1 + 1 week-end en présentiel à Strasbourg. (La nourriture et le logement sont offerts) 2 nuits du vendredi au dimanche 17h.",
-            title: "Formule 2",
-            details: "Détail de l'offre dans les CGV"
+            description: "Full distanciel 42h de formation plus 1h30 de préparation individuelle pour la certification devant le jury et 2h d'accompagnement individuel par semaine.",
+            title: "Formule Unique"
         }
     ]
 

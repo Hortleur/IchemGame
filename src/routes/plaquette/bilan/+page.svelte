@@ -1,7 +1,7 @@
 <script>
 </script>
 
-<main>
+<div>
     <div class="banner bg-cover bg-center mt-0 h-40 md:h-52 lg:h-60 xl:h-72 2xl:h-[500px] flex flex-col justify-end">
         <h1 class="text-center font-bold text-2xl xl:text-4xl bg-white bg-opacity-70 mb-4">Bilan de compétences</h1>
     </div>
@@ -57,7 +57,7 @@
             </div>
         </details>
     </div>
-</main>
+</div>
 
 <style>
     h2{
