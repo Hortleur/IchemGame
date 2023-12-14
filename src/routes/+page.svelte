@@ -1,6 +1,15 @@
 <script>
     import Animer from '$lib/assets/plaquette/animer.jpg'
     import Bilan from '$lib/assets/plaquette/bilan.jpg'
+    import Calendar from '$lib/assets/calendar.png'
+    import {onMount} from "svelte";
+
+    let isIphone = (false)
+    onMount(()=>{
+        if(navigator.userAgent.includes('iPhone') || navigator.userAgent.includes('iPad') ){
+            isIphone = true
+        }
+    })
 </script>
 
 <div class="">
@@ -24,5 +33,16 @@
                 <a href="/bilan-de-competences" class="btn btn-accent mx-auto">Voir Plus</a>
             </div>
         </div>
+        {#if isIphone}
+            <div class="card card-bordered border-2 border-base-200 shadow-xl w-11/12 md:w-7/12 xl:w-1/3 mx-auto">
+                <figure>
+                    <img src="{Calendar}" alt="illustation calendrier de l'avent">
+                </figure>
+                <h2 class="card-title my-2 ml-2">Calendrier</h2>
+                <div class="card-actions">
+                    <a href="/calendar" class="btn btn-accent mx-auto">Voir Plus</a>
+                </div>
+            </div>
+        {/if}
     </div>
 </div>

@@ -68,6 +68,9 @@
 				<li>
 					<a href="/bilan-de-competences" target="_self">Bilan de Compétences</a>
 				</li>
+				<li>
+					<a href="/calendar" target="_self">Calendrier</a>
+				</li>
 			</ul>
 		</div>
 		{/if}
@@ -109,6 +112,9 @@
 			</li>
 			<li>
 				<a href="/bilan-de-competences" target="_self">Bilan de Compétences</a>
+			</li>
+			<li>
+				<a href="/calendar" target="_self">Calendrier</a>
 			</li>
 		</ul>
 	</div>
