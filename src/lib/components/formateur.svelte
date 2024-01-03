@@ -11,7 +11,6 @@
             video:'https://kepyflpgwlszqgburnth.supabase.co/storage/v1/object/public/temoignages/ichem.mp4?t=2023-08-12T18%3A36%3A14.848Z',
             image: ichem
         },
-        /*
         {
             id: 1,
             name: 'Monique',
@@ -29,7 +28,7 @@
             name: 'Salim',
             video: 'https://kepyflpgwlszqgburnth.supabase.co/storage/v1/object/public/temoignages/video_formateur.mp4?t=2023-08-21T00%3A10%3A10.534Z',
             image: salim
-        }*/
+        }
     ]
 </script>
 
